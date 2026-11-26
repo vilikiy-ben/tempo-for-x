@@ -1,0 +1,33 @@
+{
+  "name": "tempo-for-x",
+  "version": "1.0.0",
+  "description": "Chrome extension for X: a quieter timeline, auto-translation, post explanations and honest time tracking.",
+  "private": true,
+  "license": "MIT",
+  "author": "vilikiy-ben",
+  "homepage": "https://github.com/vilikiy-ben/tempo-for-x#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilikiy-ben/tempo-for-x.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vilikiy-ben/tempo-for-x/issues"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "icons": "node scripts/make-icons.mjs",
+    "agent:install": "node scripts/agent-install.mjs",
+    "agent:login": "node scripts/agent-login.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

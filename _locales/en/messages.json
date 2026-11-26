@@ -1,0 +1,11 @@
+{
+  "description": {
+    "message": "A quieter timeline and honest time: freshness and language filters, auto-translation and real time tracking for X."
+  },
+  "commandPanel": {
+    "message": "Open or close the Tempo panel"
+  },
+  "commandFocus": {
+    "message": "Start, pause or resume focus"
+  }
+}

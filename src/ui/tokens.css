@@ -1,0 +1,89 @@
+:host,
+:root {
+  --paper: rgba(255, 255, 255, 0.94);
+  --paper-solid: #ffffff;
+  --sunken: #f4f5fa;
+  --raised: rgba(20, 20, 40, 0.05);
+  --blur: blur(32px) saturate(160%);
+
+  --ink: #14141c;
+  --ink-soft: #5a5a72;
+  --ink-faint: #b6b6c8;
+
+  --rest-paper: rgba(238, 238, 255, 0.95);
+
+  --blue: #1717ff;
+  --blue-deep: #0000c8;
+  --blue-fill: #1717ff;
+  --blue-fill-deep: #0000c8;
+  --blue-wash: #eeeeff;
+  --blue-line: rgba(23, 23, 255, 0.28);
+  --red: #e11d1d;
+
+  --hairline: rgba(20, 20, 40, 0.10);
+  --separator: rgba(20, 20, 40, 0.08);
+  --shadow: 0 16px 40px -12px rgba(20, 20, 60, 0.22), 0 2px 8px rgba(20, 20, 60, 0.08);
+  --shadow-small: 0 4px 12px -4px rgba(20, 20, 60, 0.18);
+  --shadow-focus: 0 16px 40px -12px rgba(23, 23, 255, 0.5), 0 2px 8px rgba(20, 20, 60, 0.12);
+
+  --r-panel: 16px;
+  --r-window: 12px;
+  --r-control: 9px;
+  --r-small: 6px;
+  --r-pixel: 2px;
+
+  --s1: 4px;
+  --s2: 8px;
+  --s3: 12px;
+  --s4: 16px;
+  --s5: 24px;
+  --s6: 32px;
+
+  --row: 40px;
+  --chip: 32px;
+  --btn: 36px;
+  --check: 22px;
+  --rail-btn: 36px;
+  --seg-item: 26px;
+  --pick-row: 44px;
+  --thumb: 18px;
+  --pebble: 34px;
+  --pebble-run: 38px;
+
+  --tap: 44px;
+
+  --tap-bleed: 9px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --fast: 120ms;
+  --base: 200ms;
+  --slow: 300ms;
+
+  --font: -apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', system-ui, sans-serif;
+}
+
+:host([data-theme='dark']) {
+  --paper: rgba(28, 28, 38, 0.92);
+  --paper-solid: #1c1c26;
+  --sunken: #15151e;
+  --raised: rgba(255, 255, 255, 0.07);
+  --rest-paper: rgba(42, 42, 68, 0.94);
+
+  --ink: #f0f0f6;
+  --ink-soft: #a2a2b8;
+  --ink-faint: #5a5a70;
+
+  --blue: #7676ff;
+  --blue-deep: #9b9bff;
+  --blue-fill: #4a4aff;
+  --blue-fill-deep: #3a3aff;
+  --blue-wash: rgba(110, 110, 255, 0.18);
+  --blue-line: rgba(110, 110, 255, 0.45);
+  --red: #ff6161;
+
+  --hairline: rgba(255, 255, 255, 0.12);
+  --separator: rgba(255, 255, 255, 0.08);
+  --shadow: 0 16px 40px -12px rgba(0, 0, 0, 0.72), 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-small: 0 4px 12px -4px rgba(0, 0, 0, 0.6);
+  --shadow-focus: 0 16px 40px -12px rgba(110, 110, 255, 0.5), 0 2px 8px rgba(0, 0, 0, 0.4);
+}
